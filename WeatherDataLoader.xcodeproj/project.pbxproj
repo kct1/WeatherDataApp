@@ -12,6 +12,12 @@
 		0293CE791B15399200C95D0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0293CE781B15399200C95D0F /* Images.xcassets */; };
 		0293CE7C1B15399200C95D0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0293CE7A1B15399200C95D0F /* Main.storyboard */; };
 		0293CE881B15399200C95D0F /* WeatherDataLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0293CE871B15399200C95D0F /* WeatherDataLoaderTests.swift */; };
+		0293CE951B153AEA00C95D0F /* 2011.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0293CE911B153AEA00C95D0F /* 2011.txt */; };
+		0293CE961B153AEA00C95D0F /* 2012.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0293CE921B153AEA00C95D0F /* 2012.txt */; };
+		0293CE971B153AEA00C95D0F /* 2013.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0293CE931B153AEA00C95D0F /* 2013.txt */; };
+		0293CE981B153AEA00C95D0F /* 2014.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0293CE941B153AEA00C95D0F /* 2014.txt */; };
+		0293CE9A1B153AF800C95D0F /* 2015.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0293CE991B153AF800C95D0F /* 2015.txt */; };
+		0293CE9C1B153D5700C95D0F /* day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0293CE9B1B153D5700C95D0F /* day.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,12 @@
 		0293CE811B15399200C95D0F /* WeatherDataLoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherDataLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0293CE861B15399200C95D0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0293CE871B15399200C95D0F /* WeatherDataLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataLoaderTests.swift; sourceTree = "<group>"; };
+		0293CE911B153AEA00C95D0F /* 2011.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2011.txt; sourceTree = "<group>"; };
+		0293CE921B153AEA00C95D0F /* 2012.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2012.txt; sourceTree = "<group>"; };
+		0293CE931B153AEA00C95D0F /* 2013.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2013.txt; sourceTree = "<group>"; };
+		0293CE941B153AEA00C95D0F /* 2014.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2014.txt; sourceTree = "<group>"; };
+		0293CE991B153AF800C95D0F /* 2015.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2015.txt; sourceTree = "<group>"; };
+		0293CE9B1B153D5700C95D0F /* day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = day.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +87,12 @@
 		0293CE711B15399100C95D0F /* WeatherDataLoader */ = {
 			isa = PBXGroup;
 			children = (
+				0293CE911B153AEA00C95D0F /* 2011.txt */,
+				0293CE9B1B153D5700C95D0F /* day.swift */,
+				0293CE921B153AEA00C95D0F /* 2012.txt */,
+				0293CE931B153AEA00C95D0F /* 2013.txt */,
+				0293CE941B153AEA00C95D0F /* 2014.txt */,
+				0293CE991B153AF800C95D0F /* 2015.txt */,
 				0293CE741B15399100C95D0F /* AppDelegate.swift */,
 				0293CE761B15399100C95D0F /* ViewController.swift */,
 				0293CE781B15399200C95D0F /* Images.xcassets */,
@@ -189,8 +207,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0293CE9A1B153AF800C95D0F /* 2015.txt in Resources */,
+				0293CE971B153AEA00C95D0F /* 2013.txt in Resources */,
 				0293CE791B15399200C95D0F /* Images.xcassets in Resources */,
 				0293CE7C1B15399200C95D0F /* Main.storyboard in Resources */,
+				0293CE951B153AEA00C95D0F /* 2011.txt in Resources */,
+				0293CE961B153AEA00C95D0F /* 2012.txt in Resources */,
+				0293CE981B153AEA00C95D0F /* 2014.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0293CE771B15399100C95D0F /* ViewController.swift in Sources */,
+				0293CE9C1B153D5700C95D0F /* day.swift in Sources */,
 				0293CE751B15399100C95D0F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
